@@ -10,4 +10,16 @@
         android:layout_height="wrap_content"
         android:text="点击跳转"/>
 
+    <Button
+        android:id="@+id/btn_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button按钮"/>
+
+    <Button
+        android:id="@+id/btn_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EditText"
+        android:textAllCaps="true"/>
 </LinearLayout>

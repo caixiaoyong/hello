@@ -40,10 +40,10 @@
         android:id="@+id/tv_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="中划线"
         android:textColor="#000add"
-        android:textSize="20sp"
-        android:layout_marginTop="10dp"/>
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/tv_5"
@@ -52,8 +52,7 @@
         android:layout_marginTop="10dp"
         android:text="下划线"
         android:textColor="#33CCCC"
-        android:textSize="20sp"
-        />
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/tv_6"
@@ -62,21 +61,21 @@
         android:layout_marginTop="10dp"
         android:text=""
         android:textColor="#856699"
-        android:textSize="20sp"/>
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/tv_7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="跑马灯跑马灯跑马灯跑马灯跑马灯跑马灯跑马灯跑马灯"
-        android:textSize="20sp"
-        android:textColor="#808080"
         android:layout_marginTop="10dp"
-        android:singleLine="true"
         android:ellipsize="marquee"
-        android:marqueeRepeatLimit="marquee_forever"
         android:focusable="true"
-        android:focusableInTouchMode="true"/>
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="跑马灯跑马灯跑马灯跑马灯跑马灯跑马灯跑马灯跑马灯"
+        android:textColor="#808080"
+        android:textSize="20sp" />
     <!--android:singleLine="true" 设置属性为单行显示
      android:ellipsize=”marquee”–以横向滚动方式显示(需获得当前焦点时)
      focusable表示 移动光标时 是否能聚焦到组件上
